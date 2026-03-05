@@ -1,19 +1,19 @@
-# 💸 BankMuscat React Native App
+#  BankMuscat React Native App
 Welcome to the BankMuscat mobile app repository! This project is a modern, full-featured React Native application for managing your finances, wallets, and transactions. Built with Expo, Firebase, and a beautiful UI. 🚀
 
-## 📦 Features
-- 🔐 Authentication (Login/Register)
-- 👛 Wallet management
-- 💳 Transaction tracking
-- 📊 Statistics & analytics
-- 🖼️ Profile & image upload
-- 🌙 Modern, responsive UI
-## 🛠️ Requirements
+##  Features
+-  Authentication (Login/Register)
+-  Wallet management
+-  Transaction tracking
+-  Statistics & analytics
+-  Profile & image upload
+-  Modern, responsive UI
+##  Requirements
 - Node.js (v16 or newer recommended)
 - npm or yarn
 - Expo CLI
 - Git
-## 🚀 Getting Started
+##  Getting Started
 ### 1. Clone the Repository
 ```
 git clone https://github.com/
@@ -34,7 +34,7 @@ npx expo start
 ```
 - Scan the QR code with the Expo Go app on your phone 📱
 - Or run on an emulator: a (Android) or i (iOS)
-## 🏗️ Project Structure
+##  Project Structure
 ```
 bankmuscat/
   app/           # Main app code 
@@ -51,7 +51,7 @@ bankmuscat/
   assets/        # Images, fonts
   utils/         # Utility functions
 ```
-## 🔑 Firebase Setup
+## Firebase Setup
 1. Create a Firebase project at Firebase Console
 2. Enable Authentication, Firestore, and Storage
 3. Add your Firebase config to constants/firebase.ts or your .env file
@@ -60,13 +60,12 @@ bankmuscat/
 - npm run android — Run on Android emulator
 - npm run ios — Run on iOS simulator
 - npm run web — Run on web browser
-## 🤝 Contributing
+##  Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-## 📄 License
+## License
 This project is licensed under the MIT License.
-
-## 🙋 FAQ
+##  FAQ
 - How do I reset the project?
   ```
   node scripts/reset-project.js
